@@ -16,7 +16,7 @@
 
                                     <div class="form-group has-feedback has-feedback-left">
                                         <input name="_csrf-backend" type="hidden" class="form-control" value = "<?=Yii::$app->getRequest()->getCsrfToken()?>">
-                                        <input type="email" class="form-control" placeholder="Ваш E-Mail адрес" name="email"  required="required">
+                                        <input type="email" class="form-control" placeholder="Login" name="email"  required="required">
                                         <div class="form-control-feedback">
                                             <i class="icon-user text-muted"></i>
                                         </div>
