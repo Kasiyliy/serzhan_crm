@@ -13,7 +13,8 @@
 // Allow CSS transitions when page is loaded
 $(window).on('load', function() {
     $('body').removeClass('no-transitions');
-    console.log('123');
+    var a = "Kasya";
+    a = a + a;
 });
 
 

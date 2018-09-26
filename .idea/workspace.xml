@@ -2,80 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e725a9-f0eb-452a-8897-077d22a729ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/html.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/3feb14de/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/a05cbc3e/arrow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/a05cbc3e/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/a05cbc3e/maximize.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/a05cbc3e/switch.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/a05cbc3e/timeline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/a05cbc3e/timeline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/a05cbc3e/toolbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/a05cbc3e/toolbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/a05cbc3e/userswitch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/c6c3fb2f/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/c6c3fb2f/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/c6c3fb2f/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/c6c3fb2f/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/c6c3fb2f/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/c6c3fb2f/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/c6c3fb2f/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/f746681f/yii.activeForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/f746681f/yii.captcha.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/f746681f/yii.gridView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/f746681f/yii.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/backend/web/assets/f746681f/yii.validation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/3feb14de/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/c6c3fb2f/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/c6c3fb2f/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/c6c3fb2f/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/c6c3fb2f/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/c6c3fb2f/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/c6c3fb2f/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/c6c3fb2f/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/f746681f/yii.activeForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/f746681f/yii.captcha.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/f746681f/yii.gridView.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/f746681f/yii.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yii/frontend/web/assets/f746681f/yii.validation.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/web/files/js/core/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/files/js/core/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yii" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,30 +57,31 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="2" />
+          <entry key="git.branch.checkout.local" value="5" />
           <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.merge" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="1" />
-          <entry key="php" value="4" />
+          <entry key="js" value="4" />
+          <entry key="php" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="4" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PHP" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="20" />
+          <entry key="js" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="20" />
+          <entry key="JavaScript" value="87" />
         </counts>
       </usages-collector>
     </session>
@@ -189,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/backend/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="810">
-              <caret line="56" column="46" lean-forward="true" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+              <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -197,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/web/files/js/core/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="88">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -329,6 +259,117 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/backend/views/layouts/main.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/backend/web/files/js/core/app.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -372,25 +413,25 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2451000" />
+    <option name="totallyTimeSpent" value="3439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2613293" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2613293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295129" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295129" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3295129" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.33094555" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -408,20 +449,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/common/config/main.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/AccountController.php" />
-    <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/TablesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -439,14 +474,21 @@
     <entry file="file://$PROJECT_DIR$/backend/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
-          <caret line="56" column="46" lean-forward="true" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+          <caret line="56" column="46" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/config/main-local.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/web/files/js/core/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="88">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
