@@ -14,7 +14,7 @@
             <?= Html::csrfMetaTags() ?>
             <title><?= Html::encode($this->title) ?></title>
             <?php $this->head() ?>
-        </head>
+        </head>--
         <body>
         <?php $this->beginBody() ?>
             <? if (Yii::$app->controller->action->id != "authentication") { ?>
