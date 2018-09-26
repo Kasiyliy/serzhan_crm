@@ -23,11 +23,7 @@
                     <div class="navbar-header">
 
                         <a class="navbar-brand" style = "color:#000;" href="javascript:void(0);">Taxi Plus</a>
-                        <?
-                            $me = \backend\models\Users::find()->where(['id' => Yii::$app->session->get("profile_id")])->one();
-                            $taxi_park = \backend\models\TaxiPark::find()->where(['id' => $me->taxi_park_id])->one();
-                        ?>
-                        <a id="demo" class="navbar-brand" style = "color:#000;" href="javascript:void(0);">Баланс: <?=$taxi_park->balance?> монет</a>
+
 
                         <ul class="nav navbar-nav visible-xs-block">
                             <li><a data-toggle="collapse" data-target="#navbar-mobile" class="legitRipple"><i class="icon-tree5"></i></a></li>
@@ -81,23 +77,3 @@
         </body>
     </html>
 <?php $this->endPage() ?>
-
-<script>
-    window.onload = function() {
-       // timedText();
-    };
-
-    function timedText() {
-        setTimeout(myTimeout1, 2000)
-    }
-    function myTimeout1() {
-
-        $.ajax({url: "site/balance/",
-            success: function(result){
-                document.getElementById("demo").innerHTML = "Баланс: " + result.balance +" монет";
-            }
-        });
-        timedText()
-    }
-
-</script>
