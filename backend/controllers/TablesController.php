@@ -1,8 +1,10 @@
 <?php
 namespace backend\controllers;
 use api\models\Orders;
+use backend\models\Categories;
 use backend\models\Company;
 use backend\models\Customers;
+use backend\models\Goods;
 use backend\models\Users;
 use Yii;
 use yii\web\Controller;
@@ -242,6 +244,59 @@ class TablesController extends Controller
                     ->from($table)
                     ->where($query)
                     ->andWhere($condition)
+                    ->limit($length)
+                    ->offset($start)
+                    ->all();
+            }
+            else if ($name == "categories") { //Producty
+                $recordsTotal = Categories::find()->andWhere($query)->count();
+                $recordsFiltered = Categories::find()->andWhere($condition)->andWhere($query)->andWhere($search_condition)->count();
+                $model = (new \yii\db\Query())
+                    ->select('`categories`.`id`,
+                         `categories`.`name`,
+                         `categories`.`created`'
+                    )
+                    ->from($table)
+                    ->where($query)
+                    ->andWhere($condition)
+                    ->limit($length)
+                    ->offset($start)
+                    ->all();
+            }
+            else if ($name == "goods") { //Producty
+                $recordsTotal = Goods::find()->andWhere($query)->count();
+                $recordsFiltered = Goods::find()->andWhere($condition)->andWhere($query)->andWhere($search_condition)->count();
+                $model = (new \yii\db\Query())
+                    ->select('`goods`.`id`,
+                         `goods`.`name`,
+                         `goods`.`price`,
+                         `goods`.`quantity`,
+                         `statuses`.`name` as status,
+                         `goods`.`created`'
+                    )
+                    ->from($table)
+                    ->where($query)
+                    ->andWhere($condition)
+                    ->innerJoin("statuses", "statuses.id = goods.status_id")
+                    ->limit($length)
+                    ->offset($start)
+                    ->all();
+            }
+            else if ($name == "orders") {
+                $recordsTotal = Orders::find()->andWhere($query)->count();
+                $recordsFiltered = Orders::find()->andWhere($condition)->andWhere($query)->andWhere($search_condition)->count();
+                $model = (new \yii\db\Query())
+                    ->select('`orders`.`id`,
+                         `customers`.`name` as customer,
+                         `users`.`first_name` as first_name,
+                         `users`.`last_name` as last_name,
+                         `orders`.`created`'
+                    )
+                    ->from($table)
+                    ->where($query)
+                    ->andWhere($condition)
+                    ->innerJoin("customers", "customers.id = orders.customer_id")
+                    ->innerJoin("users", "users.id = orders.user_id")
                     ->limit($length)
                     ->offset($start)
                     ->all();

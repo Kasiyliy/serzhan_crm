@@ -2,6 +2,10 @@
 namespace backend\controllers;
 
 use backend\components\Helpers;
+use backend\models\Categories;
+use backend\models\Customers;
+use backend\models\Goods;
+use backend\models\Orders;
 use yii\web\Response;
 use Yii;
 use yii\web\Controller;
@@ -48,8 +52,18 @@ class LoadajaxController extends Controller
                 $page = $_POST['page'];
                 if ($page == "users/form-user") {
                     $model = Users::find()->where(['id' => $id])->one();
-                } else if ($page == "customers/form-customer") {
-                    $model = Users::find()->where(['id' => $id])->one();
+                }
+                else if ($page == "customers/form-customer") {
+                    $model = Customers::find()->where(['id' => $id])->one();
+                }
+                else if ($page == "goods/form-good") {
+                    $model = Goods::find()->where(['id' => $id])->one();
+                }
+                else if ($page == "orders/form-order") {
+                    $model = Orders::find()->where(['id' => $id])->one();
+                }
+                else if ($page == "categories/form-category") {
+                    $model = Categories::find()->where(['id' => $id])->one();
                 }
                 else {
                     $model = null;

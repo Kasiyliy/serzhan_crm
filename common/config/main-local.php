@@ -29,8 +29,8 @@ return [
         'db' => [
             'class' => 'yii\db\Connection',
             'dsn' => 'mysql:host=localhost:3306;dbname=serzhan_crm',
-            'username' => 'root',
-            'password' => '',
+            'username' => 'usr112233',
+            'password' => 'pwd112233',
             'charset' => 'utf8',
         ],
         'mail' => [

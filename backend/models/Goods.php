@@ -4,10 +4,12 @@ namespace backend\models;
 
 use yii\db\ActiveRecord;
 
-class Goods {
+class Goods extends ActiveRecord {
+
     public static function tableName() {
         return "goods";
     }
+
 
     public function rules()
     {

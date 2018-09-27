@@ -14,7 +14,7 @@
             <?= Html::csrfMetaTags() ?>
             <title><?= Html::encode($this->title) ?></title>
             <?php $this->head() ?>
-        </head>--
+        </head>
         <body>
         <?php $this->beginBody() ?>
             <? if (Yii::$app->controller->action->id != "authentication") { ?>
@@ -22,7 +22,7 @@
                 <div class="navbar navbar-default header-highlight">
                     <div class="navbar-header">
 
-                        <a class="navbar-brand" style = "color:#000;" href="javascript:void(0);">Taxi Plus</a>
+                        <a class="navbar-brand" style = "color:#000;" href="javascript:void(0);">Serzhan CRM</a>
 
 
                         <ul class="nav navbar-nav visible-xs-block">

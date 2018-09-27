@@ -8,8 +8,11 @@
             "form-user" => "Добавить пользователя",
             "customers" => "Клиенты",
             "form-customer" => "Добавить клиента",
-
-
+            "categories" => "Категории товаров",
+            "goods" => "Товары",
+            "form-good" => "Добавить товар",
+            "orders" => "Заказы",
+            "form-order" =>"Добавить заказ",
         );
     } else {
         $links = array(
@@ -17,7 +20,11 @@
             "form-user" => "Редактировать пользователя",
             "customers" => "Клиенты",
             "form-customer" => "Редактировать клиента",
-
+            "categories" => "Категории товаров",
+            "goods" => "Товары",
+            "form-good" => "Редактировать товар",
+            "orders" => "Заказы",
+            "form-order" => "Редактировать заказ",
         );
     }
     $bread = '<li><a href="/profile/"><i class="icon-home2 position-left"></i> Главная</a></li>';
