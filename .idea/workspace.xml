@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e725a9-f0eb-452a-8897-077d22a729ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/controllers/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/tables/users/form-user.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/tables/users/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/components/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/components/Helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/TablesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/TablesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/layouts/header/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/layouts/header/_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/layouts/header/_heading-elements.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/layouts/header/_heading-elements.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/layouts/mainmenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/layouts/mainmenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/web/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +81,7 @@
         <counts>
           <entry key="DATABASE/1376b848-fa6e-4834-aeb8-70d42795f308" value="1" />
           <entry key="SCHEMA:serzhan_crm" value="1" />
+          <entry key="gitignore" value="2" />
           <entry key="js" value="7" />
           <entry key="php" value="31" />
           <entry key="roles" value="2" />
@@ -102,6 +96,7 @@
           <entry key="Database Element" value="6" />
           <entry key="JavaScript" value="7" />
           <entry key="PHP" value="31" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Scratch" value="6" />
           <entry key="UML" value="2" />
         </counts>
@@ -112,14 +107,14 @@
           <entry key="js" value="110" />
           <entry key="php" value="1219" />
           <entry key="sql" value="230" />
-          <entry key="txt" value="47" />
+          <entry key="txt" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="110" />
           <entry key="PHP" value="1219" />
-          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="PLAIN_TEXT" value="87" />
           <entry key="Scratch" value="255" />
         </counts>
       </usages-collector>
@@ -174,6 +169,16 @@
               <caret line="523" column="48" lean-forward="true" selection-start-line="523" selection-start-column="48" selection-end-line="523" selection-end-column="48" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/web/files/js/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/web/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -280,11 +285,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1376b848-fa6e-4834-aeb8-70d42795f308/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -376,6 +381,7 @@
         <option value="$PROJECT_DIR$/backend/web/files/js/mytables/users/index.js" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1376b848-fa6e-4834-aeb8-70d42795f308/console_2.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1376b848-fa6e-4834-aeb8-70d42795f308/console.sql" />
+        <option value="$PROJECT_DIR$/backend/web/.gitignore" />
       </list>
     </option>
   </component>
@@ -429,68 +435,7 @@
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tables" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="mytables" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="mytables" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
@@ -517,7 +462,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="database.console.LAST_STATE" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1346,20 +1291,27 @@
       <option name="project" value="LOCAL" />
       <updated>1537967514401</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="First data table with add user are ready">
+      <created>1538018167312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538018167312</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11624000" />
+    <option name="totallyTimeSpent" value="11886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-37" width="1366" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26605505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26605505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Database Console" visible="true" weight="0.3288889" />
+      <window_info anchor="bottom" id="Database Console" weight="0.3288889" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3288889" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295129" />
@@ -1390,7 +1342,8 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="Tair's models are ready, login ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tair's models are ready, login ready" />
+    <MESSAGE value="First data table with add user are ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="First data table with add user are ready" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/common/config/main.php">
@@ -1685,13 +1638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/TablesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="523" column="48" lean-forward="true" selection-start-line="523" selection-start-column="48" selection-end-line="523" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1376b848-fa6e-4834-aeb8-70d42795f308/console_2.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1706,6 +1652,13 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1376b848-fa6e-4834-aeb8-70d42795f308/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -1811,12 +1764,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1376b848-fa6e-4834-aeb8-70d42795f308/console.sql">
+    <entry file="file://$PROJECT_DIR$/backend/controllers/TablesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="272">
+          <caret line="523" column="48" lean-forward="true" selection-start-line="523" selection-start-column="48" selection-end-line="523" selection-end-column="48" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/web/files/js/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/web/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
