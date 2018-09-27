@@ -28,7 +28,7 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=serzhan_crm',
+            'dsn' => 'mysql:host=localhost:3306;dbname=serzhan_crm',
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
