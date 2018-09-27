@@ -43,68 +43,6 @@ use Yii;
                         'select_fields' => ['id', 'name', 'phone', 'email',  'last_edit', 'created'],
                     );
                     break;
-                case "traffic":
-                    $array = array (
-                        'select_fields' => ['id', 'sender_user_id', 'sender_tp_id', 'reciever_user_id',  'reciever_tp_id', 'amount', 'date'],
-                    );
-                    break;
-                case "cashiers":
-                    $array = array (
-                        'select_fields' => ['id', 'name', 'phone', 'email',  'last_edit', 'created'],
-                    );
-                    break;
-                case "admins":
-                    $array = array (
-                        'select_fields' => ['id', 'name', 'phone', 'email',  'last_edit', 'created'],
-                    );
-                    break;
-                case "users":
-                    $array = array (
-                        'select_fields' => ['id', 'name', 'phone', 'email',  'last_edit', 'created', 'is_active'],
-                    );
-                    break;
-                case "tadmins":
-                    $array = array (
-                        'select_fields' => ['id', 'name', 'phone', 'email',  'last_edit', 'created', 'taxi_park_id'],
-                    );
-                    break;
-                case "taxi-parks":
-                    $array = array (
-                        'select_fields' => ['id', 'name', 'type', 'city_id',  'balance'],
-                        'filtr' => array (
-                            'type' => array (
-                                'label' => 'Тип оплаты',
-                                'type' => 'static',
-                                'icon' => 'icon-check',
-                                'data' => array(
-                                    '1' => 'tip 1',
-                                    '3' => 'tip 3'
-                                ),
-                            ),
-                        )
-                    );
-                    break;
-                case "cashier":
-                    $array = array (
-                        'select_fields' => ['id', 'name', 'type', 'city_id',  'balance'],
-                        'filtr' => array (
-                            'type' => array (
-                                'label' => 'Тип оплаты',
-                                'type' => 'static',
-                                'icon' => 'icon-check',
-                                'data' => array(
-                                    '1' => 'tip 1',
-                                    '3' => 'tip 3'
-                                ),
-                            ),
-                        )
-                    );
-                    break;
-                case "drivers":
-                    $array = array (
-                        'select_fields' => ['id', 'name', 'phone', 'email',  'taxi_park_id', 'created', 'is_active', 'balance'],
-                    );
-                    break;
 
                 default:
                     $array = null;
