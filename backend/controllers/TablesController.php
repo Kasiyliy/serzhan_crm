@@ -2,6 +2,7 @@
 namespace backend\controllers;
 use api\models\Orders;
 use backend\models\Company;
+use backend\models\Customers;
 use backend\models\Users;
 use Yii;
 use yii\web\Controller;
@@ -521,7 +522,26 @@ class TablesController extends Controller
                          `users`.`first_name`,
                          `users`.`last_name`,
                          `users`.`created`,
-                         `users`.`phone_number`'
+                         `users`.`phone_number`,
+                         group_concat( roles.name) as roles'
+                    )
+                    ->from($table)
+                    ->where($query)
+                    ->andWhere($condition)
+                    ->innerJoin("users_roles", "users_roles.user_id = users.id")
+                    ->innerJoin("roles", "roles.id = users_roles.role_id")
+                    ->groupBy('users.id')
+                    ->limit($length)
+                    ->offset($start)
+                    ->all();
+            }
+            else if ($name == "customers") { //Producty
+                $recordsTotal = Customers::find()->andWhere($query)->count();
+                $recordsFiltered = Customers::find()->andWhere($condition)->andWhere($query)->andWhere($search_condition)->count();
+                $model = (new \yii\db\Query())
+                    ->select('`customers`.`id`,
+                         `customers`.`name`,
+                         `customers`.`created`'
                     )
                     ->from($table)
                     ->where($query)

@@ -46,28 +46,10 @@ class LoadajaxController extends Controller
                 }
                 $security = true;
                 $page = $_POST['page'];
-                if ($page == "moderators/form-moderator") {
+                if ($page == "users/form-user") {
                     $model = Users::find()->where(['id' => $id])->one();
-                }else if ($page == "admins/form-admin") {
+                } else if ($page == "customers/form-customer") {
                     $model = Users::find()->where(['id' => $id])->one();
-                }
-                else if ($page == "tadmins/form-tadmin") {
-                    $model = Users::find()->where(['id' => $id])->one();
-                }
-                else if ($page == "taxi-parks/form-taxi-park") {
-                    $model = TaxiPark::find()->where(['id' => $id])->one();
-                }
-                else if ($page == "cashier/form-taxi-park") {
-                    $model = TaxiPark::find()->where(['id' => $id])->one();
-                }
-                else if ($page == "cashiers/form-cashier") {
-                    $model = Users::find()->where(['id' => $id])->one();
-                }
-                else if ($page == "drivers/form-driver") {
-                    $model = Users::find()->where(['id' => $id])->one();
-                }
-                else if ($page == "taxi-parks/radial") {
-                    $model = TaxiPark::find()->where(['id' => $id])->one();
                 }
                 else {
                     $model = null;
