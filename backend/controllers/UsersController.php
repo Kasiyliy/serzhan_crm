@@ -1,5 +1,6 @@
 <?php
 namespace backend\controllers;
+use backend\models\Customers;
 use DateTime;
 use Yii;
 use yii\db\Exception;
@@ -48,6 +49,42 @@ class UsersController extends Controller
                     $response['message'] = "Пользователь изменен";
                 }else{
                     $response['message'] = "Пользователь успешно добавлен";
+                }
+
+                $response['type'] = "success";
+
+            } else {
+                $response['message'] = "Неизвестная ошибка, попробуйте позже.";
+                $response['type'] = "error";
+            }
+
+
+            Yii::$app->response->format = Response::FORMAT_JSON;
+            return $response;
+        }
+
+    }
+
+
+
+
+    public function actionCustomers()
+    {
+        if (Yii::$app->request->isAjax) {
+
+            $id = $_POST['id'];
+            if ($id != null) {
+                $model = Customers::find()->where(['id' => $id])->one();
+            } else {
+                $model = new Customers();
+            }
+            $model->attributes = $_POST['Information'];
+
+            if ($model->save()) {
+                if($id != null){
+                    $response['message'] = "Клиент изменен";
+                }else{
+                    $response['message'] = "Клиент успешно добавлен";
                 }
 
                 $response['type'] = "success";

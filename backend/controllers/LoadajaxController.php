@@ -48,6 +48,8 @@ class LoadajaxController extends Controller
                 $page = $_POST['page'];
                 if ($page == "users/form-user") {
                     $model = Users::find()->where(['id' => $id])->one();
+                } else if ($page == "customers/form-customer") {
+                    $model = Users::find()->where(['id' => $id])->one();
                 }
                 else {
                     $model = null;

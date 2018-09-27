@@ -1,4 +1,4 @@
-<script type="text/javascript" src="/profile/files/js/mytables/users/index.js"></script>
+<script type="text/javascript" src="/profile/files/js/mytables/customers/index.js"></script>
 <script type="text/javascript" src="/profile/files/js/plugins/notifications/sweet_alert.min.js"></script>
 
 <?=$this->render("/layouts/header/_header")?>

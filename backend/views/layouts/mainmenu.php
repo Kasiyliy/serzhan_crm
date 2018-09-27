@@ -7,6 +7,7 @@
 
 
             <li class="nav-item"><a id = "users" href="users" class = "cs-link"><i class="icon-office"></i>Пользователи</a></li>
+            <li class="nav-item"><a id = "customers" href="customers" class = "cs-link"><i class="icon-office"></i>Клиенты</a></li>
 
         </ul>
     </div>
