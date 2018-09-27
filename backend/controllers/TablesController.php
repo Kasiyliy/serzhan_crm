@@ -521,11 +521,15 @@ class TablesController extends Controller
                          `users`.`first_name`,
                          `users`.`last_name`,
                          `users`.`created`,
-                         `users`.`phone_number`'
+                         `users`.`phone_number`,
+                         group_concat( roles.name) as roles'
                     )
                     ->from($table)
                     ->where($query)
                     ->andWhere($condition)
+                    ->innerJoin("users_roles", "users_roles.user_id = users.id")
+                    ->innerJoin("roles", "roles.id = users_roles.role_id")
+                    ->groupBy('users.id')
                     ->limit($length)
                     ->offset($start)
                     ->all();

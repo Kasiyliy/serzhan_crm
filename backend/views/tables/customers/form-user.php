@@ -34,21 +34,16 @@ use backend\models\Roles;
                     <?
                     $list = Roles::find()->all();
                     if($model->id != null){
-                        $users_role = \backend\models\UsersRoles::find()->where(['user_id' => $model->id])->all();
-                        $role_ids = [];
-                        foreach ($users_role as $k => $v){
-                            array_push($role_ids, $v->role_id);
-                        }
+                        $users_role = \backend\models\UsersRoles::find()->where(['user_id' => $model->id])->one();
                     }
-
                     ?>
-                        <input hidden name="roles" id="facil">
 
                         <div class="col-md-6" style="padding-top: 2em; padding-bottom: 2em;">
                             <label class = "text-semibold">Роль:</label>
-                            <select  id="roles" class="select" multiple required ="required">
+                            <select  name = "role" class="select" required ="required">
+                                <option value="">Не выбран</option>
                                 <? foreach ($list as $key => $value) { ?>
-                                    <option <? if( in_array($value->id, $role_ids)){?>selected<?} ?> value="<?=$value->id?>"><?=$value->name?></option>
+                                    <option <? if($users_role == $value->id){?>selected<?} ?> value="<?=$value->id?>"><?=$value->name?></option>
                                 <? } ?>
                             </select>
                         </div>
@@ -68,53 +63,3 @@ use backend\models\Roles;
             </div>
     </form>
 </div>
-
-
-<script>
-    $(document).ready(function() {
-
-        $(document.body).on("change","#roles",function(){
-
-            var countries = [];
-            $.each($("#roles option:selected"), function(){
-                countries.push($(this).val());
-            });
-            $('#facil').val(countries);
-            //console.log('value ' + val);
-
-        });
-
-
-
-    });
-
-    function models() {
-        var id = document.getElementById('mark').value;
-        console.log(id);
-        $.ajax({url: "moderators/get-models/",
-            type: 'POST',
-            data: {id:id},
-            success: function(result) {
-                var array = result.models;
-                var selectList = document.getElementById('model');
-                selectList.innerHTML = '';
-
-                for (var i = 0; i < array.length; i++) {
-                    var option = document.createElement("option");
-                    option.value = array[i].id;
-                    option.text = array[i].model;
-                    selectList.appendChild(option);
-                }
-
-                $('#model').select2();
-            }
-
-
-        });
-    }
-
-
-    //        $("button").click(function(){
-    //
-    //        });
-</script>

@@ -14,8 +14,6 @@
                         <tr>
                             <th>ID</th>
                             <th>Имя</th>
-                            <th>Телефон</th>
-                            <th>Роль</th>
                            <th>Создан</th>
                         </tr>
                         </thead>
