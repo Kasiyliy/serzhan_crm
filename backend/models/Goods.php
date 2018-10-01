@@ -10,6 +10,9 @@ class Goods extends ActiveRecord {
         return "goods";
     }
 
+    public static function tableFields(){
+        return ['id', 'name', 'category_id', 'price' , 'quantity', 'status_id','deleted' ,'created'];
+    }
 
     public function rules()
     {

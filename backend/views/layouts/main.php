@@ -19,25 +19,26 @@
         <?php $this->beginBody() ?>
             <? if (Yii::$app->controller->action->id != "authentication") { ?>
                 <? Helpers::CheckAuth("no-redirect", null); ?>
-                <div class="navbar navbar-default header-highlight">
-                    <div class="navbar-header">
+                <div  class="navbar navbar-default header-highlight">
+                    <div class="navbar-header" >
 
                         <a class="navbar-brand" style = "color:#000;" href="javascript:void(0);">Serzhan CRM</a>
+                        <?php
+                            $currentUser =  \backend\models\Users::find()->where(['id' => Yii::$app->session->get('profile_id')])->one();
+                            ?>
 
 
                         <ul class="nav navbar-nav visible-xs-block">
                             <li><a data-toggle="collapse" data-target="#navbar-mobile" class="legitRipple"><i class="icon-tree5"></i></a></li>
                             <li><a class="sidebar-mobile-main-toggle legitRipple"><i class="icon-paragraph-justify3"></i></a></li>
+
                         </ul>
                     </div>
 
                     <div class="navbar-collapse collapse" id="navbar-mobile">
                         <ul class="nav navbar-nav">
                             <li><a class="sidebar-control sidebar-main-toggle hidden-xs legitRipple"><i class="icon-paragraph-justify3"></i></a></li>
-
                         </ul>
-
-
                     </div>
                 </div>
                 <div class="page-container">
@@ -53,6 +54,7 @@
                                         </div>
 
                                         <div class="sidebar-user-material-menu">
+                                            <p class="text-center"><?=$currentUser['last_name'].' '.$currentUser['first_name'];?></p>
                                             <a href="#user-nav" data-toggle="collapse"><span>Мой профиль</span> <i class="caret"></i></a>
                                         </div>
                                     </div>

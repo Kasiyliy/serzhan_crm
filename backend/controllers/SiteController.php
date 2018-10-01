@@ -53,7 +53,7 @@ class SiteController extends Controller
                    Yii::$app->session->set('profile_ip', $_SERVER['REMOTE_ADDR']);
                    $users_role = UsersRoles::find()->where(['user_id' => $profile->id])->one();
                    $role = Roles::find()->where(['id' => $users_role->role_id])->one();
-                   Yii::$app->session->set('profile_role', $role->name);
+                   Yii::$app->session->set('profile_role', $role->id);
 
                }else{
                    $request['message'] = "User not found";
@@ -82,7 +82,8 @@ class SiteController extends Controller
             $id = $_POST['id'];
             $table = $_POST['table'];
             if ($id != null) {
-                Yii::$app->db->createCommand()->delete($table, ['id' => $id])->execute();
+                Yii::$app->db->createCommand()->update($table, ['deleted'], 1);
+                //Yii::$app->db->createCommand()->delete($table, ['id' => $id])->execute();
                 $request['message'] = "Удаление прошло успешно";
                 $request['type'] = "success";
             } else {

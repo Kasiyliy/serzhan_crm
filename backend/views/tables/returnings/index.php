@@ -1,5 +1,4 @@
-<script type="text/javascript" src="/profile/files/js/mytables/orders/index.js"></script>
-<script type="text/javascript" src="/profile/files/js/plugins/notifications/sweet_alert.min.js"></script>
+<script type="text/javascript" src="/profile/files/js/mytables/returnings/index.js"></script>
 
 <?=$this->render("/layouts/header/_header")?>
 
@@ -14,9 +13,8 @@
                         <tr>
                             <th>ID</th>
                             <th>Клиент</th>
-                            <th>Продавец</th>
-                            <th>Дата</th>
-                            <th>Действие</th>
+                            <th>Сумма возврата</th>
+                            <th>Дата и время </th>
                         </tr>
                         </thead>
                         <tbody>

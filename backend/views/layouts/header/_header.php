@@ -13,6 +13,9 @@
             "form-good" => "Добавить товар",
             "orders" => "Заказы",
             "form-order" =>"Добавить заказ",
+            "debts" => "Задолженности",
+            "returnings" => "Возвраты",
+
         );
     } else {
         $links = array(
@@ -25,6 +28,8 @@
             "form-good" => "Редактировать товар",
             "orders" => "Заказы",
             "form-order" => "Редактировать заказ",
+            "debts" => "Задолженности",
+            "returnings" => "Возвраты",
         );
     }
     $bread = '<li><a href="/profile/"><i class="icon-home2 position-left"></i> Главная</a></li>';

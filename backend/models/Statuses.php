@@ -8,6 +8,10 @@ class Statuses extends ActiveRecord{
         return "statuses";
     }
 
+    public static function tableFields(){
+        return ['id' , 'name' , 'deleted', 'created'];
+    }
+
     public function rules(){
         return [
            [['id' , 'name' , 'deleted', 'created'], 'safe'],

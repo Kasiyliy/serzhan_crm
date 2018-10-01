@@ -12,6 +12,10 @@ class UsersRoles extends ActiveRecord
         return "users_roles";
     }
 
+    public static function tableFields(){
+        return ['id', 'role_id', 'user_id', 'created'];
+    }
+
     public function rules()
     {
         return [

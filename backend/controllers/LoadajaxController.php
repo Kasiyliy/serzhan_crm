@@ -65,6 +65,9 @@ class LoadajaxController extends Controller
                 else if ($page == "categories/form-category") {
                     $model = Categories::find()->where(['id' => $id])->one();
                 }
+                else if ($page == "orders/form-print") {
+                    $model = Orders::find()->where(['id' => $id])->one();
+                }
                 else {
                     $model = null;
                 }

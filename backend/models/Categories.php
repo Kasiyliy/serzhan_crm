@@ -8,6 +8,10 @@ class Categories extends ActiveRecord{
         return 'categories';
     }
 
+    public static function tableFields(){
+        return ['id', 'name', 'deleted', 'created'];
+    }
+
     public function rules(){
         return [
             [['id', 'name', 'deleted', 'created'], 'safe'],

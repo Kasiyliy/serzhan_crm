@@ -12,6 +12,10 @@ class Roles extends ActiveRecord
         return "roles";
     }
 
+    public static function tableFields(){
+        return ['id', 'name', 'deleted', 'created'];
+    }
+
     public function rules()
     {
         return [

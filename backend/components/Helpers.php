@@ -1,6 +1,9 @@
 <?php
     namespace backend\components;
-    use backend\models\Dealers;
+    use backend\models\Categories;
+use backend\models\Customers;
+use backend\models\Dealers;
+use backend\models\Orders;
 use Yii;
 
     class Helpers {
@@ -38,10 +41,22 @@ use Yii;
         public static function GetConfig($table, $type) {
             $array = null;
             switch ($table) {
-                case "moderators":
+                case Categories::tableName():
                     $array = array (
-                        'select_fields' => ['id', 'name', 'phone', 'email',  'last_edit', 'created'],
+                        'select_fields' => Categories::tableFields(),
                     );
+                    break;
+                case Customers::tableName():
+                    $array = array (
+                        'select_fields' => Customers::tableFields(),
+                    );
+                    break;
+                case Orders::tableName():
+                    $array = array (
+                        'select_fields' => Orders::tableFields(),
+                        'search_fields' => Orders::tableFields()
+
+                );
                     break;
 
                 default:

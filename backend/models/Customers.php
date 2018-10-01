@@ -12,6 +12,10 @@ class Customers extends ActiveRecord
         return "customers";
     }
 
+    public static function tableFields(){
+        return ['id', 'name', 'deleted', 'created'];
+    }
+
     public function rules()
     {
         return [

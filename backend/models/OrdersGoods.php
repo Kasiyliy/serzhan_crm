@@ -8,6 +8,10 @@ class OrdersGoods extends ActiveRecord {
         return 'orders_goods';
     }
 
+    public static function tableFields(){
+        return ['id' , 'order_id' , 'good_id' , 'quantity', 'created'];
+    }
+
     public function rules(){
         return [
           [['id' , 'order_id' , 'good_id' , 'quantity', 'created'],'safe'],

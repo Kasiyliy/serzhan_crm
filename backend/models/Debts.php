@@ -12,6 +12,10 @@ class Debts extends ActiveRecord
         return "debts";
     }
 
+    public static function tableFields(){
+        return ['id', 'order_id', 'amount', 'debt_status_id','deleted', 'created'];
+    }
+
     public function rules()
     {
         return [

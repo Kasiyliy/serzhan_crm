@@ -23,7 +23,9 @@ use backend\models\Roles;
                         <?=$this->render('/layouts/modal-components/_input', array('info' => array("Имя", "name", "text", $model->name, "true")))?>
 
                     </div>
-
+                    <?
+                    if(Yii::$app->session->get('profile_role') == 1){
+                    ?>
                     <div class = "col-md-12">
                         <div class="text-right">
                             <a href = "<?=Yii::$app->request->cookies['back']?>" class="cs-link btn btn-default">Отмена <i class="icon-x position-right"></i></a>
@@ -33,6 +35,7 @@ use backend\models\Roles;
                             <button type="submit" class="btn btn-primary">Сохранить <i class="icon-check position-right"></i></button>
                         </div>
                     </div>
+                    <?php } ?>
                 </div>
             </div>
     </form>

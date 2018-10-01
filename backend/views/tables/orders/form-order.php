@@ -34,7 +34,7 @@ use backend\models\Roles;
                         foreach ($orders_goods as $key => $value){
                             $rand = rand();
                             ?>
-                            <div class="col-md-12" style="margin-top: 2em; margin-bottom: 2em">
+                            <div class="col-md-12" id="<?=$rand?>" style="margin-top: 2em; margin-bottom: 2em">
                                 <label class="text-semibold">Выберите товар:</label>
                                 <select name = "goods[<?=$rand?>]" class="select" required ="required">
                                     <? foreach ($goods as $k => $v) { ?>
@@ -42,16 +42,38 @@ use backend\models\Roles;
                                     <? } ?>
                                 </select>
                                 <input name="amount[<?=$rand?>]" placeholder="3" class="form-control" value="<?=$value->quantity?>">
+                                <button style="margin-top: 2em;" type="button" class="btn" onclick="deleteGood(<?=$rand?>)">Удалить товар</button>
                             </div>
                             <?
                         }
                         ?>
 
 
-                        <div id="good" class="col-md-12">
+                        <div id="good" style="margin-bottom: 2em;" class="col-md-12">
 
                         </div>
-                        <button class="btn btn-primary" style="margin-top: 2em" type="button" onclick="addGood()">Добавить товар</button>
+                        <?
+                            if($model->id != null){
+                                $existing_debt = \backend\models\Debts::find()->where(['order_id' => $model->id])->one();
+                            }
+                        ?>
+                        <button class="btn btn-primary" style="margin-top: 2em; margin-bottom: 2em;" type="button" onclick="addGood()">Добавить товар</button>
+<br>
+                        <?
+                        if(Yii::$app->session->get('profile_role') == 1){
+                            ?>
+
+
+
+                            <label class="text-semibold">Сумма в долг:</label>
+                            <input style="margin-bottom: 2em;" name="debt" placeholder="2000" class="form-control" value="<?=$existing_debt->amount?>">
+
+                            <?
+
+                        }
+
+                        ?>
+
                     </div>
 
                     <div class = "col-md-12">
@@ -69,6 +91,16 @@ use backend\models\Roles;
 </div>
 
 <script>
+
+
+    function changeSum(rand) {
+        console.log(rand)
+    }
+    function deleteGood(id){
+            var div = document.getElementById(id);
+            div. parentNode. removeChild(div);
+    }
+
     function addGood() {
         var parent = document.getElementById('good');
         var div = document.createElement('div');
@@ -92,11 +124,20 @@ use backend\models\Roles;
         input.classList.toggle("form-control");
         input.required = true;
         input.type = 'number';
+        input.id = rand
         input.placeholder = "3";
         div.setAttribute("style", "padding-top: 2em; padding-bottom: 2em;");
 
+        var button = document.createElement('button');
+        button.type = 'button';
+        button.classList.toggle('btn');
+     //   button.onclick = deleteGood(rand);
+        button.innerText = 'Удалить товар';
+        div.id = rand;
+        input.onchange = changeSum(rand);
+        button.setAttribute("style", "margin-top: 2em;");
 
-
+        /* function */
 
         $.ajax({
             url: "/profile/orders/get-goods/",
@@ -112,13 +153,27 @@ use backend\models\Roles;
                 div.appendChild(label);
                 div.appendChild(select);
                 div.appendChild(input);
+                div.appendChild(button);
                 parent.appendChild(div);
+
+
+                input.addEventListener("keyup", function (evt) {
+                    console.log(this.name)
+                }, false);
+
                 $('[name="goods[' + rand + ']"]').select2();
                 }
+
+
             });
 
 
     }
+
+    function myEventHandler(event) {
+
+    }
+
 
 
 </script>
