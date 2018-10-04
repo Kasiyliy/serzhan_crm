@@ -90,6 +90,13 @@ public function actionGetGoods(){
     return $response;
 }
 
+    public function actionGetGoodsById(){
+        $ids = $_POST['array'];
+        $goods = Goods::find()->where(['id' => $ids])->all();
+        $response["goods"] = $goods;
+        Yii::$app->response->format = Response::FORMAT_JSON;
+        return $response;
+    }
 
 
 }

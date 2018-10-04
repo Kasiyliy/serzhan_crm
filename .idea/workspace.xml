@@ -2,39 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54e725a9-f0eb-452a-8897-077d22a729ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/controllers/DebtsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/tables/debts/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/tables/orders/form-print.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views/tables/returnings/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/components/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/components/Helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/LoadajaxController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/LoadajaxController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/controllers/OrdersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/OrdersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/TablesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/TablesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Categories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Customers.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Customers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/DebtReturnings.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/DebtReturnings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/DebtStatuses.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/DebtStatuses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Debts.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Debts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Goods.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Goods.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Orders.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Orders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/OrdersGoods.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/OrdersGoods.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Returnings.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Returnings.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Roles.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Roles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Statuses.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Statuses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Users.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/UsersRoles.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/UsersRoles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/layouts/header/_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/layouts/header/_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/layouts/header/_heading-elements.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/layouts/header/_heading-elements.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/layouts/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/layouts/mainmenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/layouts/mainmenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/tables/categories/form-category.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/tables/categories/form-category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/tables/customers/form-customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/tables/customers/form-customer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/tables/goods/form-good.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/tables/goods/form-good.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/views/tables/orders/form-order.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/tables/orders/form-order.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/tables/orders/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/tables/orders/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/views/tables/users/form-user.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/views/tables/users/form-user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +52,7 @@
     <session id="371505118">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.39" value="1" />
@@ -104,7 +73,7 @@
           <entry key="js" value="34" />
           <entry key="json" value="1" />
           <entry key="orders" value="1" />
-          <entry key="php" value="212" />
+          <entry key="php" value="215" />
           <entry key="png" value="1" />
           <entry key="returnings" value="1" />
           <entry key="roles" value="7" />
@@ -122,7 +91,7 @@
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="34" />
-          <entry key="PHP" value="212" />
+          <entry key="PHP" value="215" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="16" />
@@ -133,7 +102,7 @@
         <counts>
           <entry key="cell" value="105" />
           <entry key="js" value="1115" />
-          <entry key="php" value="9391" />
+          <entry key="php" value="10694" />
           <entry key="sql" value="460" />
           <entry key="txt" value="104" />
         </counts>
@@ -141,7 +110,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="1115" />
-          <entry key="PHP" value="9391" />
+          <entry key="PHP" value="10694" />
           <entry key="PLAIN_TEXT" value="104" />
           <entry key="Scratch" value="565" />
         </counts>
@@ -222,61 +191,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/controllers/OrdersController.php">
+      <file pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;b255b788-6f54-48e0-8e98-70a9703b3adc&gt;/backend/controllers/AccountController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-              <folding>
-                <element signature="e#37#66#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/controllers/TablesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2325">
-              <caret line="231" column="56" selection-start-line="231" selection-start-column="56" selection-end-line="231" selection-end-column="56" />
-              <folding>
-                <marker date="1538369825968" expanded="true" signature="10991:12637" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
-              <folding>
-                <element signature="e#38#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend/views/tables/orders/form-order.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backend/views/layouts/mainmenu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="71" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+            <state relative-caret-position="298">
+              <caret line="417" column="63" selection-start-line="417" selection-start-column="59" selection-end-line="417" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -366,11 +285,11 @@
         <option value="$PROJECT_DIR$/backend/models/UsersRoles.php" />
         <option value="$PROJECT_DIR$/backend/models/Categories.php" />
         <option value="$PROJECT_DIR$/backend/components/Helpers.php" />
-        <option value="$PROJECT_DIR$/backend/controllers/OrdersController.php" />
         <option value="$PROJECT_DIR$/backend/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/backend/controllers/TablesController.php" />
-        <option value="&lt;b255b788-6f54-48e0-8e98-70a9703b3adc&gt;/backend/controllers/AccountController.php" />
+        <option value="$PROJECT_DIR$/backend/controllers/OrdersController.php" />
         <option value="$PROJECT_DIR$/backend/views/tables/orders/form-order.php" />
+        <option value="&lt;b255b788-6f54-48e0-8e98-70a9703b3adc&gt;/backend/controllers/AccountController.php" />
       </list>
     </option>
   </component>
@@ -396,7 +315,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="27" />
     <option name="width" value="1299" />
@@ -540,7 +459,7 @@
       <workItem from="1537959926814" duration="774000" />
       <workItem from="1537960934932" duration="571000" />
       <workItem from="1538062326622" duration="29520000" />
-      <workItem from="1538316216809" duration="16749000" />
+      <workItem from="1538316216809" duration="26142000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1537956699297</created>
@@ -584,11 +503,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538018419144</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Gitignore update">
+      <created>1538381996803</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1538381996804</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78886000" />
+    <option name="totallyTimeSpent" value="88279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,10 +526,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-37" width="1366" height="805" extended-state="6" />
-    <editor active="true" />
+    <frame x="47" y="27" width="1319" height="741" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16819572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17446472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -622,7 +547,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.22171254" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.2299762" />
       <window_info anchor="right" id="Database" order="4" weight="0.2038065" />
     </layout>
   </component>
@@ -715,6 +640,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#5;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -935,26 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/GoodsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1037">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#37#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
-          <folding>
-            <element signature="e#38#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend/controllers/TablesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2325">
@@ -965,24 +877,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/controllers/OrdersController.php">
+    <entry file="file://$PROJECT_DIR$/backend/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
+        <state relative-caret-position="75">
+          <caret line="75" column="54" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="54" />
           <folding>
-            <element signature="e#37#66#0#PHP" expanded="true" />
+            <element signature="e#38#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/GoodsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1414">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#37#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backend/views/tables/orders/form-order.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="109" column="17" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+        <state relative-caret-position="833">
+          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#2;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/controllers/OrdersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
+          <folding>
+            <element signature="e#37#66#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -30,27 +30,27 @@ use backend\models\Roles;
                                 <option <? if ($v->id == $model->customer_id) { ?>selected<? } ?> value="<?=$v->id?>"><?=$v->name?></option>
                             <? } ?>
                         </select>
-                        <?
-                        foreach ($orders_goods as $key => $value){
-                            $rand = rand();
-                            ?>
-                            <div class="col-md-12" id="<?=$rand?>" style="margin-top: 2em; margin-bottom: 2em">
-                                <label class="text-semibold">Выберите товар:</label>
-                                <select name = "goods[<?=$rand?>]" class="select" required ="required">
-                                    <? foreach ($goods as $k => $v) { ?>
-                                        <option <? if ($v->id == $value->good_id) { ?>selected<? } ?> value="<?=$v->id?>"><?=$v->name?></option>
-                                    <? } ?>
-                                </select>
-                                <input name="amount[<?=$rand?>]" placeholder="3" class="form-control" value="<?=$value->quantity?>">
-                                <button style="margin-top: 2em;" type="button" class="btn" onclick="deleteGood(<?=$rand?>)">Удалить товар</button>
-                            </div>
-                            <?
-                        }
-                        ?>
+
 
 
                         <div id="good" style="margin-bottom: 2em;" class="col-md-12">
-
+                            <?
+                            foreach ($orders_goods as $key => $value){
+                                $rand = rand();
+                                ?>
+                                <div class="col-md-12" id="<?=$rand?>" style="margin-top: 2em; margin-bottom: 2em">
+                                    <label class="text-semibold">Выберите товар:</label>
+                                    <select name = "goods[<?=$rand?>]" class="select" required ="required">
+                                        <? foreach ($goods as $k => $v) { ?>
+                                            <option <? if ($v->id == $value->good_id) { ?>selected<? } ?> value="<?=$v->id?>"><?=$v->name?></option>
+                                        <? } ?>
+                                    </select>
+                                    <input onchange="setOverallSum()" name="amount[<?=$rand?>]" placeholder="3" class="form-control" value="<?=$value->quantity?>">
+                                    <button style="margin-top: 2em;" type="button" class="btn" onclick="deleteGood(<?=$rand?>)">Удалить товар</button>
+                                </div>
+                                <?
+                            }
+                            ?>
                         </div>
                         <?
                             if($model->id != null){
@@ -59,21 +59,28 @@ use backend\models\Roles;
                         ?>
                         <button class="btn btn-primary" style="margin-top: 2em; margin-bottom: 2em;" type="button" onclick="addGood()">Добавить товар</button>
 <br>
+                        <div class='row'>
                         <?
                         if(Yii::$app->session->get('profile_role') == 1){
                             ?>
 
-
-
+                            <div class='col-sm-6'>
                             <label class="text-semibold">Сумма в долг:</label>
                             <input style="margin-bottom: 2em;" name="debt" placeholder="2000" class="form-control" value="<?=$existing_debt->amount?>">
-
+                            </div>
                             <?
 
                         }
 
                         ?>
 
+                            <div class='col-sm-6'>
+                                <div class="input-group">
+                                    <label for="overallSum">Общая сумма:</label>
+                                    <input   type='text' class="form-control" disabled id="overallSum" >
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class = "col-md-12">
@@ -101,7 +108,47 @@ use backend\models\Roles;
             div. parentNode. removeChild(div);
     }
 
+    function setOverallSum(){
+        var parent = document.getElementById("good");
+        var selects= parent.getElementsByTagName("select");
+        var inputs= parent.getElementsByTagName("input");
+        var assocArr = [];
+        var keys = [];
+        for(var i =0 ; i < selects.length; i++){
+            var key = selects[i].value;
+            var value = inputs[i].value;
+            assocArr[key] = value;
+            console.log(key);
+            keys.push(key)
+        }
+        getGood(keys, assocArr);
+    }
+    $(document).ready(function () {
+        setOverallSum();
+    })
+    function getGood(arr, assocArr){
+        var overallSum = document.getElementById("overallSum");
+        $.ajax({
+            url: "/profile/orders/get-goods-by-id/",
+            dataType: "json",
+            type: "POST",
+            data: {array: arr},
+            success: function (response) {
+                var sum = 0;
+                for(var i = 0 ; i < response.goods.length ; i++){
+                    sum+= ( assocArr[response.goods[i].id]  *  response.goods[i].price);
+                    console.log(sum);
+                }
+                overallSum.value = sum;
+            },
+            failure: function(){
+                overallSum.innerHTML= 0;
+            }
+        });
+    }
+
     function addGood() {
+
         var parent = document.getElementById('good');
         var div = document.createElement('div');
 
@@ -113,6 +160,7 @@ use backend\models\Roles;
         label.innerText = 'Выберите товар:';
         var rand = Math.random();
         select.name = "goods[" + rand + "]";
+
         div.classList.toggle("col-md-12");
 
         var label1 = document.createElement('label');
@@ -122,9 +170,10 @@ use backend\models\Roles;
         var input = document.createElement("input");
         input.name = "amount[" + rand + "]";
         input.classList.toggle("form-control");
+//        input.onchange = setOverallSum();
         input.required = true;
         input.type = 'number';
-        input.id = rand
+        input.id = rand;
         input.placeholder = "3";
         div.setAttribute("style", "padding-top: 2em; padding-bottom: 2em;");
 
@@ -144,8 +193,12 @@ use backend\models\Roles;
             dataType: "json",
             type: "GET",
             success: function (response) {
+                var option = document.createElement('option');
+                option.innerHTML = 'Не выбрано';
+
+                select.appendChild(option);
                 for(var i = 0; i < response.goods.length; i++) {
-                    var option = document.createElement('option');
+                    option = document.createElement('option');
                     option.value = response.goods[i].id;
                     option.innerHTML = response.goods[i].name;
                     select.appendChild(option)
@@ -158,7 +211,7 @@ use backend\models\Roles;
 
 
                 input.addEventListener("keyup", function (evt) {
-                    console.log(this.name)
+                    setOverallSum()
                 }, false);
 
                 $('[name="goods[' + rand + ']"]').select2();
@@ -166,7 +219,7 @@ use backend\models\Roles;
 
 
             });
-
+            setOverallSum();
 
     }
 
